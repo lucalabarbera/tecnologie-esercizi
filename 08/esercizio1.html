@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+    <title> esercizio 8.1 </title>
+<style>
+    h1.t{color:red;text-align : center }
+    h1.q{ font-size:20px }
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+
+table.tb{
+    border: 1px solid black; border-collapse: collapse;
+}
+th.l, td.l{
+    border: 1px solid black; border-collapse: collapse;
+}
+th.m, td.m{
+    padding: 5px;
+    text-align: left;
+}
+tr.alt:nth-child(even) {
+    background-color: rgba(0, 238, 255, 0.788);
+}
+tr.alt1:nth-child(odd){
+    background-color:red;
+}
+
+</style>
+</head>
+<body>
+    <h1 class = "t"> ESERCIZIO 8.1 </h1>
+<table style="width:100%">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>		
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+</table>
+<h1 class = "q" >1) quali sono i tag necessari a creare una tabella? </h1>
+<p>_per creare una tabella abbiamo bisogno dei seguenti tag:  &lttable&gt, &ltth&gt, &lttr&gt e &lttd&gt.</p>
+<h1 class = "q">a. come si identifica la tabella? </h1>
+<p>_con &lttable&gt</p>
+<h1 class = "q">b. come si identifica l'intestazione?</h1>
+<p >_con &ltth&gt</p>
+<h1 class = "q">c. come si identificano le righe?</h1> 
+<p>_con &lttr&gt</p>
+<h1 class =  "q">d. come si identificano le colonne?</h1>
+<p>_con &lttd&gt</p>
+
+
+
+
+<table style="width:100%"; class="tb">
+        <tr class="alt1">
+          <th class="m">First Name</th>
+          <th class="m">Last Name</th>		
+          <th class="m">Points</th>
+        </tr>
+        <tr class="alt">
+          <td class="m">Jill</td>
+          <td class="m">Smith</td>		
+          <td class="m">50</td>
+        </tr>
+        <tr class="alt1">
+          <td class="m">Eve</td>
+          <td class="m">Jackson</td>		
+          <td class="m">94</td>
+        </tr>
+      </table>
+
+<p style = " text-align: end "><i>  Luca La Barbera 4e informatica  </p>
+</body>
+</html>
