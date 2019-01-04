@@ -1,0 +1,156 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>esercizio 10.3</title>
+</head>
+<style>
+    #h1t{color:red;text-align : center }
+	#div1 {width: 200px;height: 200px;
+		   margin:auto;background: red;
+          }
+	#div1:hover{animation-name: animation1; animation-duration :2s;
+			}
+	/* The animation code */
+	@keyframes animation1 {
+	 0%   {background-color: red;}
+	35%  {background-color: yellow;}
+	75%  {background-color: green;}
+	100% {background-color: blue;}
+	}
+	#div2 {width: 200px;height: 200px;
+	       margin:auto;background-color: red;
+		}
+	#div2:hover {animation-name: a2;animation-duration :2s;
+			}
+	@keyframes a2 {
+	0%  {background-color:red; left:0px; top:0px;}
+	25%  {background-color:yellow; left:200px; top:0px;}
+	50%  {background-color:green; left:200px; top:200px;}
+	75%  {background-color:blue; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
+		}
+			
+	#div3 {width: 200px;height: 200px;
+		margin:auto; background-color : red;
+		position: relative; 
+		}
+	#div3:hover {animation-name: a3;animation-duration :5s; animation-delay: 5s;
+			}
+	@keyframes a3 { 
+	0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:yellow; left:200px; top:0px;}
+	50%  {background-color:green; left:200px; top:200px;}
+	75%  {background-color:blue; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
+			}
+	#div4 {width: 200px;height: 200px;
+		   margin:auto; background-color : red;
+		   position: relative; transition:  ease-in-out;
+			}
+	#div4:hover {animation-name: a4; animation-duration :5s;
+			}
+	@keyframes a4 { 
+	 0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:yellow; left:200px; top:0px;}
+	50%  {background-color:green; left:200px; top:200px;}
+	75%  {background-color:blue; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
+			}
+			
+	#div5 {width: 200px;height: 200px;
+		margin:auto;background-color: blue ;
+	 position: relative;
+			}
+	#div5:hover {animation-name: a5 ;animation-duration :5s; 
+	animation-fill-mode:forwards; 
+			}
+	@keyframes a5 {from {left :0 px;}
+ to {left:100px; background-color: yellow;}	
+ 		}
+	#div6 {width: 200px;height: 200px;
+		   margin:auto; background-color : yellow;
+		   
+			}
+	#div6:hover {animation-name: a6; animation-duration :5s;
+			}
+			@keyframes a6 {
+	0%  {background-color: yellow; width : 500px; height : 450 px;}
+	35%  {background-color: yellow;}
+	75%  {background-color: blue;}
+	100% {background-color: blue;}
+			}	
+	#div7 {width: 200px;height: 200px;
+		   margin:auto; background-color : red;
+		}
+#div7:hover {animation-name: a7; animation-duration :5s;
+			}
+	@keyframes a7 {
+	0%  {background-color: red;}
+	35%  {background-color: yellow;}
+	75%  {background-color: green;}
+	100% {background-color: blue; width : 500px; height : 450 px;}
+			}
+	#div8 {width: 200px;height: 200px;
+		   margin:auto ; background-color :pink ;
+		}
+	#div8:hover {animation-name: a8;animation-duration :15s;
+	animation-fill-mode: inherit;
+			}
+	@keyframes a8 {
+ from { background: white;}
+ to { background : black;}
+			}	
+	#div9 {width: 200px;height: 200px;
+		   margin:auto; background-color : red;
+			}
+	#div9:hover {animation-name: a9;animation-duration :5s;
+			}
+			@keyframes a9 { 
+	 0%  {background-color: red;}
+	35%  {background-color: yellow;}
+	75%  {background-color: green;}
+	100% {background-color: blue;}
+			}
+	#div10{width: 200px;height: 200px;
+		margin:auto; background-color : red;
+	}
+	#div10:hover {animation-name: a10; animation-duration :5s;
+			}
+	@keyframes a10 {  
+	0%  {background-color: red;}
+	35%  {background-color: yellow;}
+	75%  {background-color: green;}
+	100% {background-color: blue;}
+			}		
+	</style>
+    </head>
+    <h1 id = "h1t"> ESERCIZIO 10.3</h1>
+	<body>
+		<article>
+		<div id = "div1">(1)</div>
+		</article>
+		<article>
+		<div id = "div2">(2)</div>
+		</article>
+		<article>
+		<div id = "div3">(3)</div>
+		</article>
+		<article>
+		<div id = "div4">(4)</div>
+		</article>
+		<article>
+		<div id = "div5">(5)</div>
+		</article>
+		<div id = "div6">(6)</div>
+		<article>
+		<div id = "div7">(7)</div>
+		</article>
+		<div id = "div8">(8)</div>
+		<article>
+		<div id = "div9">(9)</div>
+		</article>
+        <div id = "div10">(10)</div>
+        <p style = " text-align: end "><i>  Luca La Barbera 4e informatica  </p>
+	</body>
+</html>
